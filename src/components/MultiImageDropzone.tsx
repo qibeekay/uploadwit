@@ -170,9 +170,9 @@ const MultiFileDropzone = React.forwardRef<HTMLInputElement, InputProps>(
 						</div>
 
 						{/* Selected Files */}
-						<div className='w-full relative z-10'>
-							<div className='w-[20rem]'>
-								<h1 className='text-[#E9FF92]/70 text-center mt-[2.5rem] underline font-semibold'>
+						<div className='w-full h-[10rem] md:h-full overflow-y-scroll'>
+							<div className='w-full'>
+								<h1 className='text-[#E9FF92]/70 text-center md:mt-[2.5rem] underline font-semibold'>
 									Image upload status
 								</h1>
 							</div>
